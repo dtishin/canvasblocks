@@ -4,7 +4,7 @@
 	
 	<meta charset="utf-8">
 	
-	<title>Canvas Blocks</title>
+	<title>Canvas Blocks Plus</title>
 	
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -41,7 +41,7 @@
 		var __filesToLoad = {
 			"./lib/jquery-3.1.0.min.js": {total: 86351},
 			"./lib/google-spreadsheets.js": {total: 998},
-			"./Canvas Blocks.js": {total: 2441506}
+			"./Canvas Blocks Plus.js": {total: 2431252}
 		}
 		
 		var __progressBar;
@@ -53,7 +53,7 @@
 
 		var __completionCallback = function __completionCallback() {
 			__progressBar.parentNode.removeChild(__progressBar);
-			lime.embed ("Canvas Blocks", "openfl-content", 1920, 1080, { parameters: {} });
+			lime.embed ("Canvas Blocks Plus", "openfl-content", 1920, 1080, { parameters: {} });
 		};
 
 		__loadWithProgress(__filesToLoad, __progressListener, __completionCallback);
